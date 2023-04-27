@@ -1,0 +1,122 @@
+/* Estilos para el cuerpo de la página */
+body {
+  background-image: url("../img/fondoInicio.jpg");
+	box-shadow: 0 0 2px rgba(0, 0, 0, 7.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Estilos para el contenedor del navbar y el brand del navbar */
+.container-fluid.navbar-container,
+.navbar-brand {
+  padding-left: 0;
+}
+
+/* Estilos para el formulario */
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff77;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+/* Estilos para la etiqueta */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+
+ /* Estilos para el contenedor de la imagen */
+ .img-container {
+  position: fixed;
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 500px;
+}
+
+/* Estilos para la imagen */
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Estilos para el formulario */
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fcf9f960;
+  box-shadow: 0px 0px 10px rgba(243, 10, 10, 0.3);
+  border-radius: 10px;
+}
+
+/* Estilos para el título */
+form h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffcc03;
+  text-shadow: 2px 0px #150aa7;
+  font-family: "Fontemon";
+}
+/*
+h1 {
+  margin-top: 0;
+  font-size: 2rem;
+  text-align: center;
+  color: #ffcc03;
+  text-shadow: 1px 1px #150aa7;
+  font-family: "Fontemon";
+}
+*/
+/* Estilos para la etiqueta */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Estilos para el input */
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos para el botón */
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #2805f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el botón cuando se le pasa el mouse */
+input[type="submit"]:hover {
+  background-color: #555;
+}

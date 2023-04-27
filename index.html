@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Cajero</title>
+  <!-- bootstrap -->
+  <link rel="icon" href="./img/Pokeboll.png" type="image/x-icon">
+  <link href="./css/style.css" rel="stylesheet" type="text/css">
+  <!-- Última versión compilada y minificada de CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwZr2MFdPpvhKpX3rF5n2zvpnv8a7Tu" crossorigin="anonymous">
+  <!-- Script -->
+  <script src="jquery/jquery-3.3.1.min.js"></script>
+  <script src="popper/popper.min.js"></script>
+  <script src="bootstrap4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="estilos.css">
+
+  <!-- Sweealert -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="plugins/sweetAlert2/sweetalert2.min.css">
+  <link rel="stylesheet" href="plugins/animate.css/animate.css">
+</head>
+
+<body>
+
+  <!-- Titulo 
+  <div class="row align-items-center">
+    <div class="col align-self-center">
+      <h1 class="text-center display-1 text-primary"><strong></strong></h1>
+      <img src="./img/atm.png" class="img-fluid" alt="Responsive image">
+    </div>
+  </div>-->
+  <!-- pin -->
+  <div class="img-container">
+    <img src="./img/logoPo.png" alt="Logo">
+  </div>
+  
+  <div class="row align-items-end">
+    <div class="col-md-3">
+
+      <form onsubmit="return formSubmitted()">
+        <h2>Digite su PIN</h2>
+        <input id="pin" type="password" onkeypress="return inputChange()" />
+        <input type="submit" onclick="window.close();" value="Entrar" />
+      </form>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="./js/index.js"></script>
+  <!-- Plugin sweet Alert 2 -->
+  <script src="plugins/sweetAlert2/sweetalert2.all.min.js"></script>
+</body>
+
+</html>

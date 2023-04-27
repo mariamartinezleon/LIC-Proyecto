@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cajero Automatico</title>
+  <link rel="icon" href="./img/Pokeboll.png" type="image/x-icon">
+  <meta name="cajeros" content="">
+
+  <link rel="stylesheet" href="./css/main.css">
+
+
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-start">
+        <p><img src="./img/Imagen2.png" /></p>
+      </div>
+
+      <div class="col align-self-center">
+        <p>
+          <a href="cajero.html" target="_parent"><button class="boton">Menu anterior</button></a>
+          <button class="boton2" onclick="window.location.href='index.html'">Cerrar Sesion</button>
+        </p>
+      </div>
+
+
+      <script src="./js/cajero.js"></script>
+
+    </div>
+  </div>
+
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col"> Servicio por pagar</th>
+          <th>Concepto</th>
+          <th>Mes</th>
+          <th>Valor</th>
+          <th>Accion</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="./img/caess.jpg" alt="Servicio de Electricidad" width="60" height="60"></td>
+          <td>Electricidad</td>
+          <td>Septiembre</td>
+          <td>$50.00</td>
+          <td><button class="boton" id="boton1">
+              Pagar servicio
+            </button></td>
+        </tr>
+        <tr>
+          <td><img src="./img/b.avif" alt="Servicio de Electricidad" width="60" height="60"></td>
+          <td>Internet</td>
+          <td>Septiembre</td>
+          <td>$30.00</td>
+          <td><button class="boton" id="boton2">
+              Pagar servicio
+            </button></td>
+        </tr>
+        <tr>
+          <td><img src="./img/c.avif" alt="Servicio de Electricidad" width="60" height="60"></td>
+          <td>Telefonia</td>
+          <td>Septiembre</td>
+          <td>$9.99</td>
+          <td><button class="boton" id="boton3">
+              Pagar servicio
+            </button></td>
+        </tr>
+        <tr>
+          <td><img src="./img/d.png" alt="Servicio de Electricidad" width="60" height="60"></td>
+          <td>Agua potable</td>
+          <td>Septiembre</td>
+          <td>$5.00</td>
+          <td><button class="boton" id="boton4">
+              Pagar servicio
+            </button></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    document.getElementById('boton1').onclick = function () {
+      swal.fire({
+        type: "success",
+        text: "Servicio cancelado",
+        title: 'Gracias por su pago'
+      });
+    }
+
+    document.getElementById('boton2').onclick = function () {
+      swal.fire({
+        type: "success",
+        text: "Servicio cancelado",
+        title: 'Gracias por su pago'
+      });
+    }
+    document.getElementById('boton3').onclick = function () {
+      swal.fire({
+        type: "success",
+        text: "Servicio cancelado",
+        title: 'Gracias por su pago'
+      });
+    }
+    document.getElementById('boton4').onclick = function () {
+      swal.fire({
+        type: "success",
+        text: "Servicio cancelado",
+        title: 'Gracias por su pago'
+      });
+    }
+
+
+  </script>
+  <script type="text/javascript" src="./js/index.js"></script>
+
+  <!-- Script -->
+  <script src="jquery/jquery-3.3.1.min.js"></script>
+  <script src="popper/popper.min.js"></script>
+  <script src="bootstrap4/js/bootstrap.min.js"></script>
+
+  <!--    Plugin sweet Alert 2  -->
+  <script src="plugins/sweetAlert2/sweetalert2.all.min.js"></script>
+
+
+</body>
+
+</html>
